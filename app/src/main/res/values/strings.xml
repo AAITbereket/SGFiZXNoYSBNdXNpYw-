@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PagerSlidingTabStrip</string>
+    <string name="action_contact">Contact</string>
+
+
+    <string name="tizita">Tizita-M (ትዝታ)</string>
+
+    <string name="tizta_scale_intro"> Tizita Major scale is one of widely used ethiopian scale.
+                It is interesting to note that Full Tizita is the same exact scale known around the
+                world as the major pentatonic scale.
+        </string>
+
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+
+    <string name="lorem_small">Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+        mollit anim id est laborum.</string>
+
+
+</resources>

@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bekgrace.habshamusic.Scale_Activities.Scale_Fragements.Tizta_major_frag">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:scrollbarStyle="insideOverlay"
+           tools:context="com.example.bekgrace.nav_drawer.Scales_.Scale_Pentatonic_Activity">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/tizita"
+                   android:layout_gravity="left"
+                   android:gravity="center"
+                   android:textSize="@dimen/Scale_Title"/>
+           </LinearLayout>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:padding="10dp"
+               android:paddingTop="2dp"
+               android:text="@string/tizta_scale_intro"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Do Re Mi Sol La Do"
+               android:padding="10dp"
+               android:textSize="25dp"
+               android:gravity="center"
+
+               />
+
+           <com.daimajia.slider.library.SliderLayout
+               android:id="@+id/slider_tizta"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:paddingTop="15dp"
+               android:paddingLeft="15dp"
+               android:paddingRight="15dp"
+               android:paddingBottom="5dp"
+               >
+
+               <ImageButton
+                   android:id="@+id/btn_play"
+                   android:src="@drawable/img_btn_play"
+                   android:layout_width="55dp"
+                   android:layout_height="55dp"
+                   android:adjustViewBounds="true"
+                   android:layout_centerInParent="true"
+                   />
+
+               <!-- Progress Bar/Seek bar -->
+               <SeekBar
+                   android:layout_marginTop="15dp"
+                   android:id="@+id/songProgressBar"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="6dp"/>
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Chords"
+               android:textSize="@dimen/Scale_Title"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="21dp"
+               android:layout_margin="10dp"
+               android:text="Tizta major chords in C for example :- "
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="23dp"
+               android:gravity="center"
+               android:text="C-M  D-m  E-m  G-M  A-m"
+               />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/chords_on_Piano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:text="Chords on piano"
+                />
+
+            <Button
+                android:id="@+id/chords_on_Guitar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:text="Chords on Guitar"
+                />
+
+                </LinearLayout>
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</FrameLayout>
